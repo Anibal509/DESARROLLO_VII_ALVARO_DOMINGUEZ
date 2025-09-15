@@ -18,7 +18,7 @@ function generarMenu($paginaActual) {
     $html = '<nav><ul>';
     foreach ($menu as $pagina => $titulo) {
         $clase = ($pagina === $paginaActual) ? ' class="activo"' : '';
-        $html .= "<li><a href="$pagina.php"$clase>$titulo</a></li>";
+        $html .= '<li><a href="'.$pagina.'php"$clase>$titulo</a></li>";
     }
     $html .= '</ul></nav>';
     return $html;

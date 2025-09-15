@@ -1,3 +1,4 @@
+
 <?php
 
 // LIsta de funciones  implementadas 
@@ -46,3 +47,4 @@ function productosStockBajo($inventario) {
     echo "\n";
 }
 ?>
+

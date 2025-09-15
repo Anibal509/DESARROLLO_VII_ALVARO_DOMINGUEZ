@@ -1,7 +1,7 @@
 <?php
 //definicion de variables 
 $nombre_completo = "Alvaro Dominguez";
-$edad = "30";
+$edad = 30;
 $correo = "dominguez_alveo20@hotmail.com";
 $telefono ="67220210";
 
@@ -19,7 +19,7 @@ print "<p>Tengo " . $edad . " años</p>";
 printf("<p>Mi correo electrónico es: %s</p>", $correo);
 
 //Otra forma con concatenacion 
-echo "<p>Mi numero de telefono es:" .telefono . "</p>";
+echo "<p>Mi numero de telefono es:" .$telefono . "</p>";
 
 //Mostrar constante 
 echo "<p> Mi ocupacion actual es : " . OCUPACION . "</p>";

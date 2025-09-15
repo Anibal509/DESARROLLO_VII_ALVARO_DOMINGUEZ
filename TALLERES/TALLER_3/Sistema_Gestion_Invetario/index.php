@@ -1,3 +1,4 @@
+
 <?php
 // Incluir las funciones
 require_once "funciones/inventario.php";
@@ -19,3 +20,4 @@ echo "Valor Total del Inventario: \$$total\n\n";
 
 productosStockBajo($inventarioOrdenado);
 ?>
+
