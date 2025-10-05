@@ -1,0 +1,30 @@
+[
+    {
+        "nombre": "alain perez",
+        "email": "alain234@gmail.com",
+        "fecha_nacimiento": "2004-01-20",
+        "sitio_web": "",
+        "genero": "masculino",
+        "intereses": [
+            "deportes",
+            "musica"
+        ],
+        "comentarios": "en expansi\u00f3n empresarial",
+        "edad": 21,
+        "foto_perfil": "uploads\/68e2b73b65856_among.jpg"
+    },
+    {
+        "nombre": "alain perez",
+        "email": "alain234@gmail.com",
+        "fecha_nacimiento": "2004-01-20",
+        "sitio_web": "",
+        "genero": "masculino",
+        "intereses": [
+            "deportes",
+            "musica"
+        ],
+        "comentarios": "en expansi\u00f3n empresarial",
+        "edad": 21,
+        "foto_perfil": "uploads\/68e2b96f58f83_among.jpg"
+    }
+]

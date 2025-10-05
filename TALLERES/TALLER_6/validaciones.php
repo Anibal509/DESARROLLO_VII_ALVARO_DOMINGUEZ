@@ -10,7 +10,16 @@ function validarEmail($email) {
 function validarEdad($edad) {
     return is_numeric($edad) && $edad >= 18 && $edad <= 120;
 }
-
+function validarFechaNacimiento($fecha) {
+    // Formato esperado: YYYY-MM-DD
+    $fechaObj = DateTime::createFromFormat('Y-m-d', $fecha);
+    if (!$fechaObj || $fechaObj->format('Y-m-d') !== $fecha) {
+        return false;
+    }
+    $hoy = new DateTime();
+    $edad = $hoy->diff($fechaObj)->y;
+    return $edad >= 18 && $edad <= 120;
+}
 function validarSitioWeb($sitioWeb) {
     return empty($sitioWeb) || filter_var($sitioWeb, FILTER_VALIDATE_URL);
 }
